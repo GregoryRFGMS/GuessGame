@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #222;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+  color: #fff;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.autocomplete-input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.autocomplete {
+  width: 100%;
+  position: relative;
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  color: black;
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.suggestions li:hover {
+  background-color: #f1f1f1;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.hint-button,
+.guess-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hint-button {
+  background-color: #ff4c4c;
+  color: white;
+}
+
+.hint-button:hover {
+  background-color: #e04343;
+}
+
+.guess-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.guess-button:hover {
+  background-color: #218838;
+}
+
+.hint {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.lives {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.heart {
+  font-size: 1.5em;
+  margin: 0 5px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #ccc;
+}
