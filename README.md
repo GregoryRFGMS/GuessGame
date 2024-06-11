@@ -41,7 +41,7 @@ Guess The Game é um jogo divertido onde você deve tentar adivinhar o nome do j
 
 5. **Abra seu navegador e vá para [Guess The Game](#) para jogar o Guess The Game.**
 
-[**Jogue o Guess The Game aqui!**](https://seu-link-hospedado.com)
+[**Jogue o Guess The Game aqui!**](https://guess-game-7a5e0asni-gregoryrfgms-projects.vercel.app/)
 
 ## Tecnologias Utilizadas
 - React
